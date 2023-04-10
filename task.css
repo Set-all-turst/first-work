@@ -1,0 +1,15 @@
+.dollar_style {
+    text-align: center;
+}
+input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 4px;
+}
+button {
+    padding: 5px;
+    margin: 2px;
+    border-radius: 5px;
+    border: 1px solid black;
+}

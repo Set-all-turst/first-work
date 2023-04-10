@@ -1,44 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import Navbar from "./Navbar.js";
-import Card from "./Card";
-
+import Task from "./task";
+import Task2 from "./task2.js";
+import Task3 from "./task3";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Navbar title="Hello" />
-    <div className="cards">
-      <Card
-        title="Enjoy Beauty place in Bali City"
-        country="Bali, indonesha"
-        price={"1200"}
-      />
-      <Card
-        title="Enjoy Beauty place in Rom City"
-        country="Bali, indonesha"
-        price={"1200"}
-      />
-      <Card
-        title="Enjoy Beauty place in Bali City"
-        country="Bali, indonesha"
-        price={"1200"}
-      />
-      <Card
-        title="Enjoy Beauty place in Bali City"
-        country="Bali, indonesha"
-        price={"1200"}
-      />
-      <Card
-        title="Enjoy Beauty place in Bali City"
-        country="Bali, indonesha"
-        price={"1200"}
-      />
-      <Card
-        title="Enjoy Beauty place in Bali City"
-        country="Bali, indonesha"
-        price={"1200"}
-      />
-    </div>
+    <Task />
+    <Task2 />
+    <Task3 />
   </React.StrictMode>
 );
